@@ -15,3 +15,13 @@ const tilte = 'Result is :'
 // number1 = 5
 // let title = 'hello world';
 // tilte = 0; give error already assign in string 
+// object and interface 
+const person : {
+name: string,
+age: number
+} = {
+    name: 'Saidur Rahman',
+    age: 30,
+}
+// console.log(person.nickname); type error give typescript but it is run by javascript 
+// array method by typescript 
