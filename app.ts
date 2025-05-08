@@ -47,3 +47,76 @@ favoriteActivity = ['sports'];
 for(const hobby of persons.hobbies){
     // console.log(hobby);
 }
+// start enum here 
+enum Role {ADMIN='ADMIN', READ_ONLY=100, AUTHOR='AUTHOR'}
+const persona = {
+    name: 'Riaz Ahmed',
+    ages: 26,
+    hobbies: ['sports', 'cooking'],
+    // tuple : means fixed array length 
+    role:Role.AUTHOR
+}
+if(persona.role=== Role.ADMIN){
+    console.log('It is admin bro....');
+}
+if(persona.role=== Role.AUTHOR){
+    console.log('It is author bro....');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
