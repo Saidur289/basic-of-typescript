@@ -1,4 +1,4 @@
-console.log("hello world ...");
+// console.log("hello world ...");
 function add(n1: number, n2: number, showResult: boolean, phrase: string){
     const result = n1 + n2;
     if(showResult){
@@ -25,3 +25,25 @@ age: number
 }
 // console.log(person.nickname); type error give typescript but it is run by javascript 
 // array method by typescript 
+const persons : {
+    name: string;
+    ages: number;
+    hobbies: string[];
+    role: [number, string]
+} = {
+    name: 'Riaz Ahmed',
+    ages: 26,
+    hobbies: ['sports', 'cooking'],
+    // tuple : means fixed array length 
+    role:[2, 'author']
+}
+// persons.role.push('admin')//it is happen after apply the tuple it default 
+// console.log(persons.role);
+// persons.role = [45, 'admin', 'keno'] // because length is fixed it is give me error 
+
+
+let favoriteActivity: string[];
+favoriteActivity = ['sports'];
+for(const hobby of persons.hobbies){
+    // console.log(hobby);
+}
